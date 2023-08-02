@@ -3,7 +3,7 @@
 <div id="sidebar" class="d-flex flex-column align-items-end">
   <div class="profile-wrapper">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
-      {% if site.avatar != empty and site.avatar %}
+      <!-- {% if site.avatar != empty and site.avatar %}
         {% capture avatar_url %}
             {% if site.avatar contains '://' %}
               {{ site.avatar }}
@@ -14,7 +14,8 @@
             {% endif %}
           {% endcapture %}
         <img src="{{ avatar_url | strip }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-      {% endif %}
+      {% endif %} -->
+      <img src="/assets/images/자몽이.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"> <!-- 기본 이미지 설정 -->
     </a>
 
     <div class="site-title">

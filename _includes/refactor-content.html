@@ -161,7 +161,7 @@
     {% if page.layout == 'home' %}
       <!-- create the image wrapper -->
       {%- capture _wrapper_start -%}
-        <div class="preview-img {{ _class | strip }}">
+        <div class="preview-img"> <!--  {{ _class | strip }} 해당 옵션을 주면 난잡해진다. -->
       {%- endcapture -%}
       {% assign _img_content = _img_content | append: _wrapper_start %}
       {% assign _right = _right | prepend: '></div' %}

@@ -26,7 +26,8 @@ description: >- # used by seo meta and the atom feed
   description
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://angrypig123.github.io"
+url: "https://AngryPig123.github.io"
+ 
 
 github:
   username: AngryPig123 # change to your github username
@@ -73,7 +74,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+# img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
