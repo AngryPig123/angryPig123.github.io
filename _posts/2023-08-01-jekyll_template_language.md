@@ -2,8 +2,8 @@
 title: Jekyll 템플릿 언어.
 author: Angrypig
 date: 2023-08-01 07:35:00 +0800
-categories: [ETC]
-tags: [Liquid Template Language]
+categories: [Etc]
+tags: [Liquid]
 pin: true
 math: true
 mermaid: true

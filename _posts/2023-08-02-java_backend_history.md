@@ -3,7 +3,7 @@ title: 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술 (5)
 author: Angrypig
 date: 2023-08-02 11:10:00 +0800
 categories: [MVC1]
-tags: [JAVA BACKEND HISTORY]
+tags: [BackEnd]
 pin: true
 math: true
 mermaid: true

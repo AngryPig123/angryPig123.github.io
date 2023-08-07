@@ -16,6 +16,7 @@
   {% endcapture %}
 
   {% if page.image %}
+
     {% assign img = page.image.path | default: page.image %}
 
     {% unless img contains '://' %}
@@ -92,4 +93,5 @@
   {% endunless %}
 
   {% include metadata-hook.html %}
+
 </head>

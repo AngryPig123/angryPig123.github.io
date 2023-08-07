@@ -2,7 +2,7 @@
 title: JAVA MAP<> computelfAbsent
 author: Angrypig
 date: 2023-08-01 15:00:00 +0800
-categories: [JAVA]
+categories: [Java]
 tags: [Basic]
 pin: true
 math: true
@@ -10,6 +10,7 @@ mermaid: true
 image:
   path: /assets/images/java/thumbnail.png
 ---
+
 
 List<EducationTargetGroupRes> 형태의 데이터를
 List에 있는 값을 기준으로 Map<String,List<String>> 형태로 만들때 사용할 수 있는 메소드
@@ -31,6 +32,7 @@ List에 있는 값을 기준으로 Map<String,List<String>> 형태로 만들때 
         return educationTargetDivisionMap;
     }
 ```
+
 
 - 적용후
 ```java
